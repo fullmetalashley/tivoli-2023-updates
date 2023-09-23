@@ -1,0 +1,26 @@
+fileFormatVersion: 2
+guid: e4fa562d93c43ae4d964ffdab47747e5
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Optima
+  fontNames:
+  - Optima
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 777486b0fd0dd7844b415d70f1055531, type: 3}
+  - {fileID: 12800000, guid: 427123f1a3730c94f8b0d3ab156573a6, type: 3}
+  - {fileID: 12800000, guid: 2d4b75a68f923354e83dc9f6f22f4858, type: 3}
+  - {fileID: 12800000, guid: 0deaa63d7b09af847bbf18c0868d7fea, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

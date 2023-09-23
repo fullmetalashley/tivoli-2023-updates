@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5169370865879076672
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5169370865879076734}
+  - component: {fileID: 5169370865879076735}
+  - component: {fileID: 5169370865879076733}
+  m_Layer: 0
+  m_Name: Scene Specific OOBE
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5169370865879076734
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5169370865879076672}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.47678974, y: -0.344217, z: 70.08441}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5169370865879076735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5169370865879076672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0c2c3a12644f4a73a684788ba2e84f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneQuote: {fileID: 0}
+  tutorialBox: {fileID: 0}
+  tutorialText: {fileID: 0}
+  tutorialStrings:
+  - "Welcome to Longbourn. You\u2019ve arrived at the home of Elizabeth Bennet and
+    her family on the eve of Michaelmas, a festive season indeed! "
+  - "Here you\u2019ll find lots to fancy as you follow along with the events of Vol
+    1 of Jane Austen\u2019s beloved novel. "
+  - Be sure to visit every day. Check the post for updates, play dress-up, or have
+    a quiet read by the window.
+  tutorialIndex: 0
+  sceneCode: 
+  toolTips:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  tipIndex: 0
+  oOBEManager: {fileID: 0}
+  tipTimer: {fileID: 0}
+--- !u!114 &5169370865879076733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5169370865879076672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fc786c93d2e64ab18a653fc7ed6cd54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  oobeControls: {fileID: 0}
+  timerOn: 0
+  currentTimer: 30
+  baseTimer: 30

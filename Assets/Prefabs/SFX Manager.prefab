@@ -1,0 +1,311 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4055988187505540266
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4055988187505540279}
+  - component: {fileID: 4055988187505540276}
+  - component: {fileID: 4055988187505540277}
+  - component: {fileID: 4055988187505540278}
+  m_Layer: 0
+  m_Name: SFX Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4055988187505540279
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4055988187505540266}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.14697678, y: 3.5858583, z: 120.5813}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4055988187505540276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4055988187505540266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aba4ad9b801c40fc965073028997d75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundValues:
+  - Belt Select 1
+  - Belt Select 2
+  - Belt Select 3
+  - Clothing Select 1
+  - Clothing Select 2
+  - Clothing Select 3
+  - Clothing Select 4
+  - Clothing Select 5
+  - Jewelry Box Open
+  - Jewelry Select 1
+  - Jewelry Select 2
+  - Jewelry Select 3
+  - Metal Jingle
+  clips:
+  - {fileID: 8300000, guid: f46eeb32c5967421c80be75ce2600156, type: 3}
+  - {fileID: 8300000, guid: bc091077bedc54e489ae9779b0facaab, type: 3}
+  - {fileID: 8300000, guid: 79140390b8167491eaf92d6330df5301, type: 3}
+  - {fileID: 8300000, guid: c5f35ec686ea64e8d88a9848abce76cf, type: 3}
+  - {fileID: 8300000, guid: 915777bc0aac840a6a85c7f19047a128, type: 3}
+  - {fileID: 8300000, guid: ad12fcf88ab7645c39c24c87b5b514e6, type: 3}
+  - {fileID: 8300000, guid: 919ed4224f4b14e8280da4446a080f7a, type: 3}
+  - {fileID: 8300000, guid: 5ed72e1548a094bbd9fa10ee9136ff69, type: 3}
+  - {fileID: 8300000, guid: a0026242ad2d54c11a8d384b3991fa3f, type: 3}
+  - {fileID: 8300000, guid: 204f7a35ff2f3492fb50460ae7cf2517, type: 3}
+  - {fileID: 8300000, guid: 01e0a2e4fe3ab4d04a01a68c58cd0681, type: 3}
+  - {fileID: 8300000, guid: bc062d84f977d4cbd8f18eece353d575, type: 3}
+  - {fileID: 8300000, guid: 4bdc76c099683445f9d39bdd01f7315b, type: 3}
+  soundEffects:
+  - name: Belt Select 1
+    clip: {fileID: 8300000, guid: f46eeb32c5967421c80be75ce2600156, type: 3}
+    volume: 0.25
+  - name: Belt Select 2
+    clip: {fileID: 8300000, guid: bc091077bedc54e489ae9779b0facaab, type: 3}
+    volume: 0.25
+  - name: Belt Select 3
+    clip: {fileID: 8300000, guid: 79140390b8167491eaf92d6330df5301, type: 3}
+    volume: 0.25
+  - name: Clothing Select 1
+    clip: {fileID: 8300000, guid: c5f35ec686ea64e8d88a9848abce76cf, type: 3}
+    volume: 0.25
+  - name: Clothing Select 2
+    clip: {fileID: 8300000, guid: 915777bc0aac840a6a85c7f19047a128, type: 3}
+    volume: 0.25
+  - name: Clothing Select 3
+    clip: {fileID: 8300000, guid: ad12fcf88ab7645c39c24c87b5b514e6, type: 3}
+    volume: 0.25
+  - name: Clothing Select 4
+    clip: {fileID: 8300000, guid: 919ed4224f4b14e8280da4446a080f7a, type: 3}
+    volume: 0.25
+  - name: Clothing Select 5
+    clip: {fileID: 8300000, guid: 5ed72e1548a094bbd9fa10ee9136ff69, type: 3}
+    volume: 0.25
+  - name: Jewelry Box Open
+    clip: {fileID: 8300000, guid: a0026242ad2d54c11a8d384b3991fa3f, type: 3}
+    volume: 0.25
+  - name: Jewelry Select 1
+    clip: {fileID: 8300000, guid: 204f7a35ff2f3492fb50460ae7cf2517, type: 3}
+    volume: 0.25
+  - name: Jewelry Select 2
+    clip: {fileID: 8300000, guid: 01e0a2e4fe3ab4d04a01a68c58cd0681, type: 3}
+    volume: 0.25
+  - name: Jewelry Select 3
+    clip: {fileID: 8300000, guid: bc062d84f977d4cbd8f18eece353d575, type: 3}
+    volume: 0.25
+  - name: Metal Jingle
+    clip: {fileID: 8300000, guid: 4bdc76c099683445f9d39bdd01f7315b, type: 3}
+    volume: 0.25
+  isPlaying: 0
+  ambient: {fileID: 4055988187505540277}
+  oneShot: {fileID: 4055988187505540278}
+  defaultVolume: 0
+--- !u!82 &4055988187505540277
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4055988187505540266}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 8561c5e4f8c804ed995e4619031c1433, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.234
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 213
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!82 &4055988187505540278
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4055988187505540266}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 0
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
